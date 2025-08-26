@@ -1,0 +1,16 @@
+# Core dependencies for Multiple Agents with Gemini
+
+# Load environment variables from .env
+python-dotenv
+
+# Pydantic for structured output models
+pydantic
+
+# Agents framework (OpenAI Agents SDK)
+agents
+
+# Google Gemini integration
+google-generativeai
+
+# OpenAI Python SDK (needed because Gemini uses OpenAI-compatible APIs)
+openai
